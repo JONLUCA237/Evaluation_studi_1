@@ -23,8 +23,8 @@
 
   <h2 class="text-center text-danger" id="horaires">HORAIRES</h2>
   
-  <div class="d-flex justify-content-center" >
-  <div class="col-sm-7 border-3 bg-white p-4 m-4 m-5">
+  <div class=" container d-flex justify-content-center" >
+  <div class="col-sm-7 border-3 bg-white p-4 m-5">
      <p class="fs-5">Nos bureaux sont ouverts du LUNDI au SAMEDI de 08 heures à 18 heures. </br>
       Les horaires d'entrainements pour les differentes categories sont les suivants : </br>
        </p>
@@ -59,7 +59,7 @@
 
   <h2 class="text-center text-danger" id="soutien">ILS NOUS SOUTIENNENT</h2>
 
-   <div class="d-flex justify-content-around">
+   <div class="container d-flex justify-content-around flex-column flex-sm-row">
       <a href="https://www.stade.fr/" target="_blank"> 
       <img class="p-4" src="pictures/Logo-Stade-Français-Paris-sz-Rugby.png" alt="Logo Stade Français Rugby">
       <p class="p-3">Le Stade Français ,</br>
@@ -97,7 +97,7 @@
 </div>
   
 
-<div class="d-flex justify-content-around">
+<div class="d-flex justify-content-around flex-column flex-sm-row">
 
   <a href="https://www.nba.com/raptors" target="_blank"> 
     <img class="p-4" src="pictures/Toronto_Raptors_logo.svg.png" alt="Logo Toronto Raptors">
@@ -130,12 +130,22 @@
   
        
   <h2 class="text-center text-danger" id="evenements">EVENEMENTS</h2>
-
+    <div class=" container d-flex justify-content-center " >
+    <div class="col-sm-7 border-3 bg-white border border-warning p-4 m-5">
+      <ul>
+        <li>1 tournois internationnal de Rugby</il>
+        <li>1 tournois internationnal de Basketball</li>
+        <li>Un concert de musique</li>
+        <li>Une soirée de gala</li>
+     </ul>
+  <p class="fw-bold text-success">les fonds récoltés permettront de financer les actions de solidarité de l’association</p>
+</div>
+</div>
   <h2 class="text-center text-secondary" id="contact">CONTACT</h2>
 
-  <form>
+  <form class="container">
     <p class="p-4 m-4">Les champs suivi d'un <span class="text-danger fw-bold fs-5">*</span> sont obligatoires</p>
-    <div class="row p-4">
+    <div class="row p-4 flex-column flex-sm-row">
       <div class="col-sm-4 mb-3">
         <label for="validationDefault01">NOM*</label>
         <input type="text" class="form-control" id="validationDefault01" placeholder="Nom"  required>
@@ -193,8 +203,8 @@
   
 
 
-  <h2 class="text-center text-secondary mt-5 " id="la gallerie">GALLERIE PHOTOS</h2>
-   <div class="d-flex flex-wrap border border-secondary border-3 bg-warning p-4 m-5">
+  <h2 class="text-center text-secondary mt-5 " id="galerie">GALLERIE PHOTOS</h2>
+   <div class="container d-flex flex-wrap border border-secondary border-3 bg-warning flex-column flex-sm-row p-4 m-5 ">
 
       <a href="pictures/terrain_de_rugby_1.jpg">
           <img src="pictures/terrain_de_rugby_sz_1.jpg" alt="Photo terrain Rugby d'entrainement" title="cliquez sur l'image ou son titre pour l'agrandir" class="py-2 m-2">
@@ -234,14 +244,14 @@
 
       
        
-
-    
+      
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 
-<main>
+    </main>
 </body>
+
 <div class="p-4 text-center">
 <a href="index.html"  tabindex="-1" role="button" aria-disabled="true" class="text-danger">RETOUR A LA PAGE D'ACCUEIL</a>
 </div>
