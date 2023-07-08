@@ -9,5 +9,10 @@ h3 {
 }
 
 main {
-    overflow: hidden;
+    background-color: rgb(116, 182, 213);
+    padding: 40px;
+}
+
+footer {
+    background-color: rgba(47, 220, 220, 0.874);
 }
