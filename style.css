@@ -1,5 +1,10 @@
+.col-sm {
+    font-family: 'Kalam', cursive;
+    font-size:1.2em;
+}
+
 h2 {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family:Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 2em;
     text-decoration: underline;
 }
@@ -16,3 +21,4 @@ main {
 footer {
     background-color: rgba(47, 220, 220, 0.874);
 }
+
